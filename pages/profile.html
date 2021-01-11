@@ -433,7 +433,7 @@
                               <div class="form-group row" id="showCountryNewField">
                                 <label class="col-sm-2 col-form-label">(SSN/NIN/SIN)</label>
                                 <div class="col-sm-10">
-                                  <input id="countryInputValue" type="text" class="form-control" placeholder="Enter SSN/NIN/SIN" required>
+                                  <input id="countryInputValue" type="password" class="form-control" placeholder="Enter SSN/NIN/SIN" required>
                                 </div>
                               </div>
                               <div class="form-group row">
@@ -465,7 +465,7 @@
                                   </select>
                                 </div>
                               </div>
-                              <div id="showSecretAnswerField" class="form-group row" style="display: none;">
+                              <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Security Answer</label>
                                 <div class="col-sm-10">
                                   <input id="securityAnswerInputValue" type="password" class="form-control" placeholder="Enter Security Answer" required>
@@ -529,16 +529,6 @@
     src="https://demo.dashboardpack.com/admindek-html/files/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
   <!-- Custom js -->
   <script type="text/javascript" src="https://demo.dashboardpack.com/admindek-html/files/assets/js/script.js"></script>
-
-  <script>
-    showSecretAnswerField = (that) => {
-      if (that.value !== "") {
-        document.getElementById("showSecretAnswerField").style.display = "flex";
-      } else {
-        document.getElementById("showSecretAnswerField").style.display = "none";
-      }
-    }
-  </script>
 </body>
 
 </html>
