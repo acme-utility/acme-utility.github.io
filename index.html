@@ -419,12 +419,12 @@
                             <h5>Open Record Form</h5>
                           </div>
                           <div class="card-block">
-                            <form id="second" action="/" method="post" novalidate="">
+                            <form>
                               <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Account Number</label>
                                 <div class="col-sm-10">
-                                  <input id="accountNumber" type="text" class="form-control" name="accountNumber"
-                                    placeholder="Enter Account Number">
+                                  <input id="accountNumber" type="password" class="form-control" name="accountNumber"
+                                    placeholder="Enter Account Number" required>
                                   <span class="messages popover-valid"></span>
                                 </div>
                               </div>
@@ -432,14 +432,14 @@
                                 <label class="col-sm-2 col-form-label">Pin Number</label>
                                 <div class="col-sm-10">
                                   <input id="pinNumber" type="password" class="form-control" name="pinNumber"
-                                    placeholder="Enter Pin Number">
+                                    placeholder="Enter Pin Number" required>
                                   <span class="messages popover-valid"></span>
                                 </div>
                               </div>
                               <div class="row">
                                 <label class="col-sm-2"></label>
                                 <div class="col-sm-10">
-                                  <a id="submitOpenRecord" type="submit" class="btn btn-primary m-b-0" href="profile.html">Submit</a>
+                                  <a id="submitOpenRecord" type="submit" class="btn btn-primary m-b-0" href="pages/profile.html">Submit</a>
                                 </div>
                               </div>
                             </form>
