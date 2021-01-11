@@ -16,7 +16,40 @@
 }
 
 .logo-title {
-  margin: 20px !important;
+  width: 100%;
+  position: relative;
+}
+
+.logo-title > .invest {
+  font-size: 26px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.logo-title > .flex {
+  font-size: 26px;
+  font-style: italic;
+}
+
+.logo-title > small {
+  position: absolute;
+  right: 21px;
+  bottom: 9px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .logo-title {
+    width: auto;
+    position: relative;
+  }
+
+  .logo-title > small {
+    position: absolute;
+    right: -16px;
+    bottom: 9px;
+    font-size: 18px;
+  }
 }
 
 .exp-wrapper {
