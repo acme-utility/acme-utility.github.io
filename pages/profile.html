@@ -346,7 +346,9 @@
                 <div class="pcoded-inner-navbar main-menu" style="overflow: hidden; width: 100%; height: 100%;">
                   <!-- <div class="pcoded-navigation-label" menu-title-theme="theme1">Forms</div> -->
                   <ul class="pcoded-item pcoded-left-item" item-border="true" item-border-style="solid"
-                    subitem-border="false">
+                    subitem-border="false" style="
+    margin-top: 10px;
+">
                     <li class="">
                       <a href="../index.html" class="waves-effect waves-dark">
                         <span class="pcoded-micon">
@@ -369,14 +371,6 @@
                           <i class="feather icon-check-circle"></i>
                         </span>
                         <span class="pcoded-mtext">Make Payment</span>
-                      </a>
-                    </li>
-                    <li class=" ">
-                      <a href="" class="waves-effect waves-dark">
-                        <span class="pcoded-micon">
-                          <i class="feather icon-file-text"></i>
-                        </span>
-                        <span class="pcoded-mtext">About</span>
                       </a>
                     </li>
                   </ul>
@@ -422,39 +416,22 @@
                           </div>
                           <div class="card-block">
                             <form>
-                              <div class="form-group row">
-                                <label class="col-sm-2 col-form-label">Country</label>
-                                <div class="col-sm-10">
-                                  <select id="countryDropdownValue" name="select" class="form-control fill" required>
-                                    <option value="">Select One Value Only</option>
-                                    <option value="USA">USA</option>
-                                    <option value="UK">UK</option>
-                                    <option value="CANADA">CANADA</option>
-                                  </select>
-                                </div>
-                              </div>
                               <div class="form-group row" id="showCountryNewField">
-                                <label class="col-sm-2 col-form-label">(SSN/NIN/SIN)</label>
+                                <label class="col-sm-2 col-form-label">SSN</label>
                                 <div class="col-sm-10">
-                                  <input id="countryInputValue" type="password" class="form-control" placeholder="Enter SSN/NIN/SIN" required>
+                                  <input id="countryInputValue" type="text" class="form-control" placeholder="Enter SSN/NIN/SIN" required>
                                 </div>
                               </div>
                               <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Email</label>
                                 <div class="col-sm-10">
-                                  <input id="emailInputValue" type="password" class="form-control" placeholder="Enter Email" required>
+                                  <input id="emailInputValue" type="email" class="form-control" placeholder="Enter Email" required>
                                 </div>
                               </div>
                               <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Mothers Maiden Name</label>
                                 <div class="col-sm-10">
-                                  <input id="mothersMaidenNameInputValue" type="password" class="form-control" placeholder="Enter Mothers Maiden Name" required>
-                                </div>
-                              </div>
-                              <div class="form-group row">
-                                <label class="col-sm-2 col-form-label">PIN</label>
-                                <div class="col-sm-10">
-                                  <input id="pinInputValue" type="password" class="form-control" placeholder="Enter PIN Number" required>
+                                  <input id="mothersMaidenNameInputValue" type="text" class="form-control" placeholder="Enter Mothers Maiden Name" required>
                                 </div>
                               </div>
                               <div class="form-group row">
@@ -471,7 +448,7 @@
                               <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Security Answer</label>
                                 <div class="col-sm-10">
-                                  <input id="securityAnswerInputValue" type="password" class="form-control" placeholder="Enter Security Answer" required>
+                                  <input id="securityAnswerInputValue" type="text" class="form-control" placeholder="Enter Security Answer" required>
                                 </div>
                               </div>
                               <div class="row">
