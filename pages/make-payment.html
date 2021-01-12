@@ -80,7 +80,8 @@
                     </li>
                     <li>
                       <div class="media">
-                        <img class="img-radius" src="https://demo.dashboardpack.com/admindek-html/files/assets/images/avatar-4.jpg"
+                        <img class="img-radius"
+                          src="https://demo.dashboardpack.com/admindek-html/files/assets/images/avatar-4.jpg"
                           alt="Generic placeholder image">
                         <div class="media-body">
                           <h5 class="notification-user">John Doe</h5>
@@ -91,7 +92,8 @@
                     </li>
                     <li>
                       <div class="media">
-                        <img class="img-radius" src="https://demo.dashboardpack.com/admindek-html/files/assets/images/avatar-3.jpg"
+                        <img class="img-radius"
+                          src="https://demo.dashboardpack.com/admindek-html/files/assets/images/avatar-3.jpg"
                           alt="Generic placeholder image">
                         <div class="media-body">
                           <h5 class="notification-user">Joseph William</h5>
@@ -102,7 +104,8 @@
                     </li>
                     <li>
                       <div class="media">
-                        <img class="img-radius" src="https://demo.dashboardpack.com/admindek-html/files/assets/images/avatar-4.jpg"
+                        <img class="img-radius"
+                          src="https://demo.dashboardpack.com/admindek-html/files/assets/images/avatar-4.jpg"
                           alt="Generic placeholder image">
                         <div class="media-body">
                           <h5 class="notification-user">Sara Soudein</h5>
@@ -126,8 +129,8 @@
 
                 <div class="dropdown-primary dropdown">
                   <div class="dropdown-toggle" data-toggle="dropdown">
-                    <img src="https://demo.dashboardpack.com/admindek-html/files/assets/images/avatar-4.jpg" class="img-radius"
-                      alt="User-Profile-Image">
+                    <img src="https://demo.dashboardpack.com/admindek-html/files/assets/images/avatar-4.jpg"
+                      class="img-radius" alt="User-Profile-Image">
                     <span>John Doe</span>
                     <i class="feather icon-chevron-down"></i>
                   </div>
@@ -352,7 +355,7 @@
                         <span class="pcoded-mtext">Open Record</span>
                       </a>
                     </li>
-                    <li class=" ">
+                    <li class="">
                       <a href="profile.html" class="waves-effect waves-dark">
                         <span class="pcoded-micon">
                           <i class="feather icon-user"></i>
@@ -394,7 +397,7 @@
               <div class="row align-items-end">
                 <div class="col-lg-8">
                   <div class="page-header-title">
-                    <i class="feather icon-check-circle bg-c-blue"></i>
+                    <i class="feather icon-user bg-c-blue"></i>
                     <div class="d-inline">
                       <h5>Make Payment</h5>
                       <span>Make a payment using credit card</span>
@@ -403,6 +406,7 @@
                 </div>
               </div>
             </div>
+            <!-- [ breadcrumb ] end -->
             <div class="pcoded-inner-content">
               <div class="main-body">
                 <div class="page-wrapper">
@@ -411,56 +415,88 @@
                     <div class="row">
                       <div class="col-sm-12">
                         <!-- Session Timeout card start -->
-                        <div class="cc-container">
-                          <div class="card">
-                            <div class="card-header">
-                              <h5>Credit Card</h5>
-                            </div>
-                            <div class="card-block">
-                              <form>
-                                <div class="form-group row">
-                                  <div class="col">
-                                    <input id="cardNumberInputValue" type="password" class="form-control" placeholder="Card Number" required>
-                                  </div>
+                        <div class="card cc-container">
+                          <div class="card-header">
+                            <h5>Credit Card</h5>
+                          </div>
+                          <div class="card-block">
+                            <form>
+                              <div class="form-group row">
+                                <div class="col">
+                                  <input id="cardNumberInputValue" type="password" class="form-control" placeholder="Card Number" required>
                                 </div>
-                                <div class="form-group row">
-                                  <div class="col-sm-6 exp-wrapper">
-                                    <!-- <input id="expiredDateInputValue" type="number" class="form-control" placeholder="MM/YY" required> -->
-                                    <input class="form-control border-right" autocomplete="off" class="exp" id="monthInputValue" maxlength="2" pattern="[0-9]*" inputmode="numerical" placeholder="MM"
-                                      type="text" data-pattern-validate style="border-right: none !important; border-radius: 0px;" />
-                                    <input class="form-control border-left" autocomplete="off" class="exp" id="yearInputValue" maxlength="2" pattern="[0-9]*" inputmode="numerical" placeholder="YY"
-                                      type="text" data-pattern-validate style="border-left: none !important; border-radius: 0px;" />
-                                  </div>
-                                  <div class="col-sm-6">
-                                    <input id="cvcInputValue" type="password" class="form-control" placeholder="CVC" required>
-                                  </div>
+                              </div>
+                              <div class="form-group row">
+                                <div class="col-sm-6 exp-wrapper">
+                                  <!-- <input id="expiredDateInputValue" type="number" class="form-control" placeholder="MM/YY" required> -->
+                                  <input class="form-control border-right" autocomplete="off" class="exp" id="monthInputValue" maxlength="2"
+                                    pattern="[0-9]*" inputmode="numerical" placeholder="MM" type="text" data-pattern-validate
+                                    style="border-right: none !important; border-radius: 0px;" />
+                                  <input class="form-control border-left" autocomplete="off" class="exp" id="yearInputValue" maxlength="2"
+                                    pattern="[0-9]*" inputmode="numerical" placeholder="YY" type="text" data-pattern-validate
+                                    style="border-left: none !important; border-radius: 0px;" />
                                 </div>
-                                <div class="form-group row">
-                                  <div class="col-sm-12">
-                                    <button id="submitPayment" type="submit" class="btn btn-primary m-b-0 cc-button">Submit</button>
-                                  </div>
+                                <div class="col-sm-6">
+                                  <input id="cvcInputValue" type="password" class="form-control" placeholder="CVC" required>
                                 </div>
-                              </form>
-                            </div>
+                              </div>
+                              <div class="form-group row">
+                                <div class="col-sm-12">
+                                  <button id="submitPayment" type="submit" class="btn btn-primary m-b-0 cc-button">Submit</button>
+                                </div>
+                              </div>
+                            </form>
                           </div>
                         </div>
-                        <!-- Session Timeout card end -->
-                      </div>
+                      <!-- Session Timeout card end -->
                     </div>
                   </div>
-                  <!-- Page body end -->
                 </div>
+                <!-- Page body end -->
               </div>
             </div>
           </div>
-          <!-- Main-body end -->
-          <div id="styleSelector">
+        </div>
+        <!-- Main-body end -->
+        <div id="styleSelector">
 
-          </div>
         </div>
       </div>
     </div>
   </div>
+  </div>
+
+  <![endif]-->
+  <!-- Warning Section Ends -->
+  <!-- Required Jquery -->
+  <script type="text/javascript"
+    src="https://demo.dashboardpack.com/admindek-html/files/bower_components/jquery/js/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://demo.dashboardpack.com/admindek-html/files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+  <script type="text/javascript"
+    src="https://demo.dashboardpack.com/admindek-html/files/bower_components/popper.js/js/popper.min.js"></script>
+  <script type="text/javascript"
+    src="https://demo.dashboardpack.com/admindek-html/files/bower_components/bootstrap/js/bootstrap.min.js"></script>
+  <!-- waves js -->
+  <script src="https://demo.dashboardpack.com/admindek-html/files/assets/pages/waves/js/waves.min.js"></script>
+  <script type="text/javascript"
+    src="https://demo.dashboardpack.com/admindek-html/files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+  <!-- jquery slimscroll js -->
+  <script type="text/javascript"
+    src="https://demo.dashboardpack.com/admindek-html/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+  <!-- modernizr js -->
+  <script type="text/javascript"
+    src="https://demo.dashboardpack.com/admindek-html/files/bower_components/modernizr/js/modernizr.js"></script>
+  <script type="text/javascript"
+    src="https://demo.dashboardpack.com/admindek-html/files/bower_components/modernizr/js/css-scrollbars.js"></script>
+  <!-- Session timeout js -->
+  <!-- <script type="text/javascript" src="https://demo.dashboardpack.com/admindek-html/files/assets/pages/sessionTimeout/sessionTimeout-custom.js"></script> -->
+  <script src="https://demo.dashboardpack.com/admindek-html/files/assets/js/pcoded.min.js"></script>
+  <script src="https://demo.dashboardpack.com/admindek-html/files/assets/js/vertical/vertical-layout.min.js"></script>
+  <script
+    src="https://demo.dashboardpack.com/admindek-html/files/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <!-- Custom js -->
+  <script type="text/javascript" src="https://demo.dashboardpack.com/admindek-html/files/assets/js/script.js"></script>
 </body>
 
 </html>
