@@ -15,46 +15,22 @@
   width: 100%;
 }
 
-/* .logo-title {
-  width: 100%;
-  position: relative;
+.logo-title {
+  margin-top: 10px !important;
 }
-
-.logo-title > .invest {
-  font-size: 26px;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.logo-title > .flex {
-  font-size: 26px;
-  font-style: italic;
-}
-
-.logo-title > small {
-  position: absolute;
-  right: 21px;
-  bottom: 9px;
-  font-size: 18px;
-} */
-
-/* @media screen and (max-width: 992px) {
-  .logo-title {
-    width: auto;
-    position: relative;
-  }
-
-  .logo-title > small {
-    position: absolute;
-    right: -16px;
-    bottom: 9px;
-    font-size: 18px;
-  }
-} */
 
 .logo-title > .img-fluid {
+  padding-top: 10px;
   width: 250px !important;
-  margin-top: -10px !important;
+  margin-top: -20px !important;
+}
+
+@media screen and (max-width: 992px) {
+  .logo-title > .img-fluid {
+    padding-top: 0px;
+    width: 250px !important;
+    margin-top: -20px !important;
+  }
 }
 
 .exp-wrapper {
