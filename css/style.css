@@ -60,3 +60,7 @@ input.exp {
   appearance: none;
   font-size: 14px;
 }
+
+.navbar-logo {
+  box-shadow: none !important;
+}
